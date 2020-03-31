@@ -26,5 +26,5 @@ somelink<br/>
 <h2>PostgreSQL List Password Hashes</h2>
 
 ```
-<span style=“color:green;”>SELECT</span> usename, passwd FROM pg_shadow
+SELECT usename, passwd FROM pg_shadow
 ```
