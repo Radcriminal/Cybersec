@@ -144,7 +144,7 @@ COPY pentestlab(t) TO '/tmp/pentestlab';
 ```
 
 <h2>PostgreSQL Command execution</h2>
-<h3>CVE-2019–9193<h3>
+<h3>CVE-2019–9193</h3>
 
 Can be used from Metasploit if you have a direct access to the database, otherwise you need to execute manually the following SQL queries.
 
