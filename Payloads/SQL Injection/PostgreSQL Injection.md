@@ -3,7 +3,7 @@
 <h2>Summary</h2>
 
 * [PostgreSQL Comments](#postgresql-comments)  
-* [PostgreSQL Version](#postgresql-comments)  
+* [PostgreSQL Version](#PostgreSQL-Version)  
 somelink<br/>
 somelink<br/>
 somelink<br/>
