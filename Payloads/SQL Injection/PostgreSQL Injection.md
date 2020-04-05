@@ -4,16 +4,22 @@
 
 * [PostgreSQL Comments](#postgresql-comments)  
 * [PostgreSQL Version](#PostgreSQL-Version)  
-somelink<br/>
-somelink<br/>
-somelink<br/>
-somelink<br/>
-somelink<br/>
-somelink<br/>
-somelink<br/>
-somelink<br/>
-somelink<br/>
-
+* [PostgreSQL Current User](#PostgreSQL-Current-User)  
+* [PostgreSQL List Users](#PostgreSQL-List-Users)  
+* [PostgreSQL List Password Hashes](#PostgreSQL-List-Password-Hashes)  
+* [PostgreSQL List Database Administrator Accounts](#PostgreSQL-List-Database-Administrator-Accounts)  
+* [PostgreSQL List Privileges](#PostgreSQL-List-Privileges)  
+* [PostgreSQL Database Name](#PostgreSQL-Database-Name)  
+* [PostgreSQL List Database](#PostgreSQL-List-Database)  
+* [PostgreSQL List Tables](#PostgreSQL-List-Tables)  
+* [PostgreSQL List Columns](#PostgreSQL-List-Columns)  
+* [PostgreSQL Error Based](#PostgreSQL-Error-Based)  
+* [PostgreSQL Blind](#PostgreSQL-Blind)  
+* [PostgreSQL Time Based](#PostgreSQL-Time-Based)  
+* [PostgreSQL Stacked Query](#PostgreSQL-Stacked-Query)  
+* [PostgreSQL File Read](#PostgreSQL-File-Read)  
+* [PostgreSQL File Write](#PostgreSQL-File-Write)  
+* [PostgreSQL Command execution](#PostgreSQL-Command-execution)  
 
 
 <h2>PostgreSQL Comments</h2>
