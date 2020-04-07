@@ -35,3 +35,4 @@ For example shows only first row of **Get-Alias** command
 ```powershell
 Get-Alias | Select-Object -Filter 1
 ```
+> Also, there are **Last** and **Index** parameters 
