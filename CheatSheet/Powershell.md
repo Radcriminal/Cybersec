@@ -5,6 +5,11 @@
 
 ## Handy commands  
 
+### Get information about cmdlet
+```powershell
+Get-Help *cmdlet*
+```
+
 ### List all aliases
 ```powershell
 Get-Alias
