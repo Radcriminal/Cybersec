@@ -7,7 +7,12 @@
 
 ### Get information about cmdlet
 ```powershell
-Get-Help *cmdlet*
+Get-Help
+```
+
+Example
+```powershell
+Get-Help Select-Object
 ```
 
 ### List all aliases
