@@ -1,5 +1,6 @@
 # PowerShell cheatsheet
  
- * Handy commands
+ * [Handy commands](#handy-commands)
 
+### Handy commands
 Get-Alias
