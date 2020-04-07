@@ -27,7 +27,7 @@ Get-Alias | Select-Object Name
 ### Select only one row
 
 ```powershell
--Filter 1
+-First 1
 ```
 
 For example shows only first row of **Get-Alias** command
