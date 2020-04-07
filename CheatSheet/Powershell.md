@@ -5,14 +5,14 @@
 
 ## Handy commands  
 
-### list all aliases
+### List all aliases
 ```powershell
 Get-Alias
 ```
 
 ## Filtering
 
-### select only one object
+### Select only one object
 
 ```powershell
 Select-Object
