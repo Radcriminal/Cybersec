@@ -23,3 +23,15 @@ Select-Object
 ```powershell
 Get-Alias | Select-Object Name
 ```
+
+### Select only one row
+
+```powershell
+-Filter 1
+```
+
+Например, покажет только первую строку вывода
+
+```powershell
+Get-Alias | Select-Object -Filter 1
+```
