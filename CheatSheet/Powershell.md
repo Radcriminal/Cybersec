@@ -10,6 +10,16 @@
 Get-Alias
 ```
 
+### List all attributes and methods
+```powershell
+Get-Member
+```
+
+For example, shows all avaliable methods and attributes for object **Name**
+```powershell
+Get-Alias | Select-Object Name | Get-Member
+```
+
 ## Filtering
 
 ### Select only one object
