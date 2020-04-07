@@ -18,7 +18,7 @@ Get-Alias
 Select-Object
 ```
 
-Например, покажет только столбец Name из вывода команды Get-Alias
+For example shows only column with **Name** objects
 
 ```powershell
 Get-Alias | Select-Object Name
@@ -30,7 +30,7 @@ Get-Alias | Select-Object Name
 -Filter 1
 ```
 
-Например, покажет только первую строку вывода
+For example shows only first row of **Get-Alias** command
 
 ```powershell
 Get-Alias | Select-Object -Filter 1
