@@ -3,6 +3,7 @@
  * [Handy commands](#handy-commands)
  * [Filtering](#filtering)
  * [Reading and writing information](#reading-and-writing-information)
+ * [Working with files and directories](#working-with-files-and-directories)
 
 ## Handy commands  
 
@@ -80,3 +81,12 @@ For example, frite information to file.txt
 Get-ChildItem | Out-File ./file.txt
 ```
 > Or you can use Bash style: Get-ChildItem > ./file.txt
+
+## Working with files and directories
+
+### Creating files and directories
+
+```powershell
+New-Item -ItemType file ./file.txt
+```
+> To create directory do this: New-Item -ItemType directory
