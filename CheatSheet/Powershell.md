@@ -74,3 +74,9 @@ Out-Host
 Out-Null
 Out-String
 ```
+
+For example, frite information to file.txt
+```powershell
+Get-ChildItem | Out-File ./file.txt
+```
+> Or you can use Bash style: Get-ChildItem > ./file.txt
