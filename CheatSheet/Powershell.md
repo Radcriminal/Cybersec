@@ -76,7 +76,7 @@ Out-Null
 Out-String
 ```
 
-For example, frite information to file.txt
+For example, write information to file.txt
 ```powershell
 Get-ChildItem | Out-File ./file.txt
 ```
