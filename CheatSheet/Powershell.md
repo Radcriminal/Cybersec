@@ -2,7 +2,7 @@
  
  * [Handy commands](#handy-commands)
  * [Filtering](#filtering)
- * [Reading Information](#reading-information)
+ * [Reading and writing information](#reading-and-writing-information)
 
 ## Handy commands  
 
@@ -58,10 +58,19 @@ Get-Alias | Select-Object -Filter 1
 ```
 > Also, there are **Last** and **Index** parameters 
 
-## Reading information
+## Reading and writing information
 
 ### Getting text from file
 
 ```powershell
 Get-Content
+```
+
+### Writing or working with data output
+
+```powershell
+Out-File
+Out-Host
+Out-Null
+Out-String
 ```
