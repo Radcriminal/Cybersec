@@ -2,6 +2,7 @@
  
  * [Handy commands](#handy-commands)
  * [Filtering](#filtering)
+ * [Reading Information](#reading-information)
 
 ## Handy commands  
 
@@ -56,3 +57,11 @@ For example shows only first row of **Get-Alias** command
 Get-Alias | Select-Object -Filter 1
 ```
 > Also, there are **Last** and **Index** parameters 
+
+## Reading information
+
+### Getting text from file
+
+```powershell
+Get-Content
+```
