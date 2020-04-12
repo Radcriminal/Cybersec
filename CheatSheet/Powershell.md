@@ -32,6 +32,12 @@ For example, shows all avaliable methods and attributes for object **Name**
 Get-Alias | Select-Object Name | Get-Member
 ```
 
+### Executed encoded base64 command
+> Very usefull when some app filter bad characters on input
+```powerhsell
+powershell -enc RwBlAHQALQBQAHIAbwBjAGUAcwBzAA==
+```
+
 ## Filtering
 
 ### Select only one object
