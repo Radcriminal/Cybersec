@@ -35,7 +35,7 @@ Get-Alias | Select-Object Name | Get-Member
 ### Executed encoded base64 command
 > Very usefull when some app filter bad characters on input
 ```powerhshell
-powershell -enc RwBlAHQALQBQAHIAbwBjAGUAcwBzAA==
+Powershell -enc RwBlAHQALQBQAHIAbwBjAGUAcwBzAA==
 ```
 
 ## Filtering
