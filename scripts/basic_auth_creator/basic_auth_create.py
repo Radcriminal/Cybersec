@@ -46,8 +46,10 @@ def get_lists():
 
 
 def create_file_with_credentials():
-    for login in list_of_logins:
-        for password in list_of_password:
+    for password in list_of_password:
+        password = password.strip()
+        for login in list_of_logins:
+            login = login.strip()
             string_to_convert = login + ':' + password
             e = base64.b64encode(string_to_convert.encode('UTF-8'))
             e = str(e, 'UTF-8')
@@ -64,4 +66,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
