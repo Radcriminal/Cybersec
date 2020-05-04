@@ -4,3 +4,5 @@
 -P for multiple passwords (in a text file)  
 -l for singe login  
 -L for multiple logins  
+
+As result, you ganna recieve a string, like login:password encoded in base64
