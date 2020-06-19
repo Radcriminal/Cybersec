@@ -1,1 +1,4 @@
+## RPC
+
+rpcclient -U "" <IP> 
 
