@@ -2,6 +2,11 @@
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md
 
+
+### Impacket
+
+https://www.secureauth.com/labs/open-source-tools/impacket
+
 ## RPC
 
 Connect to RPC
