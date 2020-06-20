@@ -5,4 +5,4 @@
 -l for singe login  
 -L for multiple logins  
 
-As result, you ganna recieve a string, like login:password encoded in base64
+As result, you gonna recieve a string, like login:password encoded in base64
