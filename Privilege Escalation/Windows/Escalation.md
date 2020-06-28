@@ -1,4 +1,16 @@
-# Escalation
+
+# Kerberoasting
+
+Get SPN's (servicies) from DC
+
+> get all TGS for servicies
+```
+GetUserSPNs.py $domain/$user:#password -dc-ip $ip_addres_of_dc -request
+```
+
+
+
+# Enumeration
 ## Basics
 
 ```
