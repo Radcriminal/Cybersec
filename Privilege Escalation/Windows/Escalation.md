@@ -8,7 +8,7 @@ Get SPN's (servicies) from DC. Get TGS of the servicies
 GetUserSPNs.py $domain/$user:#password -dc-ip $ip_addres_of_dc -request
 ```
 
-
+After that use hashcat to crack service password (-m 13100)
 
 # Enumeration
 ## Basics
